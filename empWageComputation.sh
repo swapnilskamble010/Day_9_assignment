@@ -12,3 +12,7 @@ else
 	echo "Employee is Present"
 fi
 
+#Calculate Daily Employee Wage
+
+Dailywage=$(( 8*20 ))
+echo "Daily wage of a Employee is : " $Dailywage
