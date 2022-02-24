@@ -16,3 +16,6 @@ fi
 
 Dailywage=$(( 8*20 ))
 echo "Daily wage of a Employee is : " $Dailywage
+
+#Add Part time Employee & Wage, assuming part time hour -8
+echo "Part time Employee joined "
