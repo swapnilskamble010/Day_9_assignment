@@ -19,3 +19,6 @@ echo "Daily wage of a Employee is : " $Dailywage
 
 #Add Part time Employee & Wage, assuming part time hour -8
 echo "Part time Employee joined "
+
+# solving using switch case statement
+echo "solving using switch case statement"
