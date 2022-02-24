@@ -22,3 +22,7 @@ echo "Part time Employee joined "
 
 # solving using switch case statement
 echo "solving using switch case statement"
+
+#Calculating Wages for a Month
+MonthWage=$(( 20*8*20 ))
+echo "Monthly wage for an Employee is: " $MonthWage
