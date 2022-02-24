@@ -26,3 +26,8 @@ echo "solving using switch case statement"
 #Calculating Wages for a Month
 MonthWage=$(( 20*8*20 ))
 echo "Monthly wage for an Employee is: " $MonthWage
+
+#Calculate Wages till a condition of total working hours or days is reached for a month
+read -p "Enter number of Employees to calculate wage: " emp
+TotalMonthWage=$(( $emp * 20 * 8 * 20 ))
+echo "Total Monthly Wage for Employees : " $TotalMonthWage
